@@ -7,8 +7,7 @@ var mNames=['kwasi','kwadwo','kwabena','kwaku','yaw','kofi','kwame'];
  
 var d=( (( (cc/4) -2*cc-1) + ((5*yyy/4) ) + ((26*(mm+1)/10)) + dd ) %7);
 var day=Math.floor(d);
-alert(day);
-alert(gender);
+
  if(day===0 && gender==='male'){
  alert("your Akaname is kwasi")
  }
