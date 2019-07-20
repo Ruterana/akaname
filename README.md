@@ -19,7 +19,7 @@ phone number:+250783853580
 
 ### License and Copyright information.
  MIT license
- copyright(c)2019 moring school
+ copyright(c)2019 charlene niyitanga
  permission is for free to any person who want copy of this application
 
 
