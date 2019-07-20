@@ -3,11 +3,11 @@ function answerNames () {
      var gender= document.getElementById("selection").value;
      var cc=document.getElementById("")
      console.log(gender);
-     var x = new Date(input);
-     yyy = x.getFullYear();
-     mm = x.getMonth();
+     var a = new Date(input);
+     yyy = a.getFullYear();
+     mm = a.getMonth();
      mm=mm+1;
-     dd =x.getDay();
+     dd =a.getDay();
      console.log(yyy);
      console.log(mm);
      console.log(dd);
