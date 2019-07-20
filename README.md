@@ -7,8 +7,10 @@ ebsite are : Me(charlene niyitanga),Moringa school,technical mentors and my clas
 ## Setup/Installation Requirements
 * find code editor
 * install ubuntu operating system into your machine or other terminal
+* download bootstrap.
+* link java script to your html
 * cd Desktop
-* cd portfolio
+* cd akaname
 * git clone
 *code .
 ## Technologies used.
