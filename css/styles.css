@@ -1,5 +1,21 @@
-#field{
-position: relative;
-left: 100%px;
-right: 100%px;
+
+body{
+    background-image: url(../images/kname.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.card{
+    box-shadow:0 4px 6px 0 #B9770E , 0 4px 10px 0 #B9770E ; 
+    margin:30px;
+    color:#2f4f4f;
+    font-size:100%;
+     text-align:center; 
+    margin-left: -2px;
+    background-color: #D6EAF8;
+  } 
+  
+  #date{
+      width:300px;
+      height:300px;
+  }
+

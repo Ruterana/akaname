@@ -1,62 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>akaname</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <h1>akaname Application form</h1>
-</head>
-<body>
-    <p>This application is desined to help user to know their birth day.when you enter your date where you born with and month and year,your gender .so depending with the day you born with this application will show you the akaname correspond to your day. </p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>akaname</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     
-            <form id="radio_btn_select"> 
-                    <fieldset style="width:400px">
+    </head>
+    <body>
+            <div class="card">
+        <h1>akaname Application form</h1>
+        
+        <p    id="card">This application is designed to help user to know their birth day.
+                <br>when they enter Date,month , year, gender .<br>
+                so depending with the day you born with this application will 
+                <br>show you the akaname correspond to the day you born with. </p>
+
                     
-                     <legend>Selecting your Gender</legend>
-               
-                    
-               
-                        <input type = "radio"
-               
-                               name = "fontSizeControl"
-               
-                               id = "sizeSmall"
-               
-                               value = "female"
-               
-                               checked = "checked" />
-               
-                        <label for = "sizeSmall">female</label>
-               
-                        <input type = "radio"
-               
-                               name = "fontSizeControl"
-               
-                               id = "sizeSmall"
-               
-                               value = "male" />
-               
-                        <label for = "sizeSmall">male</label>
-               
-                      
-                    </fieldset>    
-                    <label>Date:</label>
-                    <input type="date" id="birthdate" min="1930-01 max="2045-01
-                    />
-                    <input type="text"> 
-                       <div id="submit">
-                        <input type="submit"> 
+                    <div id="dat">
+                    </select>            
+                        <label>Date:</label>
+                        <input type="date" id="birthdate" />
+                        
+                        <div id="submit">
+                       
+                        <p id="name"></p>
+                        
+                        <input type="text" id="centery" name="enter your century" placeholder="enter your century">
+                            <select id="selection">
+                            
+                            <option value="gender">GENDER</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            </select>
+                            
+                            <input type="button" value="submit" onclick="answerNames()">
+                    </div>
+                </div>
+            </div>
                 
+            <script src="js/script.js"></script>
 
-                  </form> 
-               
-    <div>
-
-<script src="js/script.js"></script>
+    </body>
+    </html>
     
-    
-</body>
-</html>
