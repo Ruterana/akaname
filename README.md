@@ -18,11 +18,11 @@ and contact me through my phone number:+250783853580.
 this application was developed by using html  css,bootstrap andjavascript.
 ## Contact information.
 for any suggestion or idear or any issues please contact me on my email:ncharlene38@gmail.com
-phone number:+250783853580
+phone number:+250783853580.
 
 ### License and Copyright information.
  MIT license
  copyright(c)2019 charlene niyitanga
- permission is for free to any person who want copy of this application
+ permission is for free to any person who want copy of this application.
 
 
